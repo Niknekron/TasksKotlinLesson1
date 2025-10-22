@@ -6,11 +6,5 @@ fun main() {
     var minute: String = "07"
 
     println(yearOfFlight)
-   /* println(hour)
-    println(minute)*/
-
-    hour = "10"
-    minute = "55"
-
     println("$hour:$minute")
 }
