@@ -8,8 +8,5 @@ fun main() {
     val numberOfStudents: Int = 4
     val overallRating = (student1 + student2 + student3 + student4) / numberOfStudents
 
-    println(overallRating)
-
-    /*Есть еще такой вариант вывода:
-    println(String.format("%.2f", overallRating))*/
+    println(String.format("%.2f", overallRating))
 }
