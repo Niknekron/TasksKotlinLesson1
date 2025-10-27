@@ -1,13 +1,12 @@
 package org.example.Lesson4
-
+const val SUM_TABLES: Int = 13
 fun main() {
-    val sumTables: Int = 13
     val reservationToday: Int = 13
     val reservationTomorrow: Int = 9
 
-    val isAvailavleToday:Boolean = sumTables > reservationToday
-    val isAvailableTomorrow:Boolean = sumTables > reservationTomorrow
+    val isAvailableToday: Boolean = reservationToday < SUM_TABLES
+    val isAvailableTomorrow: Boolean = reservationTomorrow < SUM_TABLES
 
-    println("Table availability for today: $isAvailavleToday")
-    println("Table availability for today: $isAvailableTomorrow")
+    println("[Table availability for today: $isAvailableToday]\n" +
+    "[Table availability for today: $isAvailableTomorrow]")
 }
