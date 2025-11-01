@@ -9,8 +9,8 @@ fun main() {
 
     println(
         "Hand exercises: $isArmsDay\n" +
-        "Leg exercises: $isLegsDay\n" +
-        "Back exercises: $isBackDay\n" +
-        "Abdominal exercises: $isAbdominalDay"
+                "Leg exercises: $isLegsDay\n" +
+                "Back exercises: $isBackDay\n" +
+                "Abdominal exercises: $isAbdominalDay"
     )
 }
