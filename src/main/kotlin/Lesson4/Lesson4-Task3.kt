@@ -8,7 +8,9 @@ fun main() {
     val openAwningToday = true
     val airHumidityTodayPercent = 20
     val timeOfYearNow = "winter"
-    val isFavorable = weatherToDay && openAwningToday && airHumidityTodayPercent == REQUIRED_HUMIDITY_PERCENT && timeOfYearNow != FORBIDDEN_SEASON
-    println("Are conditions now favorable for growing legumes?: $isFavorable"
+    val isFavorable =
+        weatherToDay && openAwningToday && airHumidityTodayPercent == REQUIRED_HUMIDITY_PERCENT && timeOfYearNow != FORBIDDEN_SEASON
+    println(
+        "Are conditions now favorable for growing legumes?: $isFavorable"
     )
 }
