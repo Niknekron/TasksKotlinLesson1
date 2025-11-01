@@ -5,10 +5,10 @@ const val MAX_WEIGHT = 100
 const val MAX_VOLUME = 100
 
 fun main() {
-val weight1: Int = 20
-val volume1: Int = 80
-val weight2: Int = 50
-val volume2: Int = 100
+    val weight1: Int = 20
+    val volume1: Int = 80
+    val weight2: Int = 50
+    val volume2: Int = 100
 
     println(
         "A load weighing $weight1 kg and having a volume of $volume1 l corresponds to the category 'Average': " +
